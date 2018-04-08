@@ -1,0 +1,5 @@
+include license
+include README.md
+include MANIFEST.in
+recursive-include flask_demo *
+recursive-exclude flask_demo *.py[co]

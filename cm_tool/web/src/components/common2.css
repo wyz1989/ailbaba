@@ -1,0 +1,101 @@
+body {
+  background-color: #ececec;
+}
+
+.layout-header {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.layout-header-title {
+  height: 60px;
+  line-height: 60px;
+}
+.layout-header-menu li {
+  height: 64px;
+  line-height: 64px;
+  font-size: 16px;
+}
+.layout-header-menu {
+
+}
+.layout-header-title-main {
+  font-size: 32px;
+
+}
+.layout-header-title-main a{
+  color: #666;
+}
+.layout-header-title-sub {
+  font-size: 16px;
+}
+.layout-header-title-sub a{
+  color: #666;
+}
+.layout-body {
+  margin: 8px 40px 10px 40px;
+  border-radius: 6px;
+  background-color: #fff;
+  min-height: 460px;
+}
+
+.layout-sider {
+  width: 224px;
+  float: left;
+  padding-top: 30px;
+}
+.layout-content {
+  padding: 20px 25px 30px 250px;
+}
+.layout-content-full {
+  padding: 30px 25px 30px 25px;
+}
+.info-row {
+  margin: 10px;
+}
+.info-k {
+  font-size: 14px;
+  font-weight: bold;
+  float: right;
+}
+.info-v {
+  font-size: 14px;
+  padding-left: 20px;
+}
+.layout-footer {
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+}
+.metric {
+  background-color: #b3ccff;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  border: 1px solid white;
+}
+.metric .key{
+  display: block;
+  font-size: 18px;
+  color: #333333;
+  margin-top: 15px;
+}
+.metric .value{
+  display: block;
+  color: #333333;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-bottom: 15px;
+}
+.outline {
+}
+.outline .outline-header {
+  height: 35px;
+  line-height: 30px;
+  font-size: 15px;
+
+}
+.outline .outline-body {
+  padding: 10px 10px 10px 20px;
+}

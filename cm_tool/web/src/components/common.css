@@ -1,0 +1,123 @@
+body {
+  background-color: #ececec;
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+
+.layout-header {
+  background-color: #336699;
+  color: white;
+}
+.layout-header-title {
+  width: 224px;
+  height: 64px;
+  line-height: 63px;
+  border-right: 1px solid #c8c7cc;
+  border-bottom: 1px solid #e9e9e9;
+  padding-left: 10px;
+  float: left;
+}
+.layout-header-menu {
+  float: left;
+}
+.layout-header-menu li {
+  height: 64px;
+  line-height: 64px;
+  font-size: 16px;
+}
+.layout-header-menu a {
+  color: white;
+}
+.layout-header-menu li li{
+  border-left: 3px solid #336699;
+  border-bottom: 2px solid #EFF8FE;
+}
+.layout-header-title-main {
+  font-size: 30px;
+
+}
+.layout-header-title-main a{
+  color: white;
+}
+.layout-header-title-sub {
+  font-size: 15px;
+}
+.layout-header-title-sub a{
+  color: white;
+}
+.layout-body {
+  border-radius: 6px;
+  background-color: #fff;
+  min-height: 450px;
+}
+
+.layout-sider {
+  width: 224px;
+  float: left;
+  background-color: white;
+  z-index: 999;
+}
+.layout-content {
+  padding: 0px 0px 20px 224px;
+}
+.layout-content-full {
+  padding: 10px 25px 30px 25px;
+}
+.info-row {
+  margin: 10px;
+}
+.info-k {
+  font-size: 14px;
+  font-weight: bold;
+  float: right;
+}
+.info-v {
+  font-size: 14px;
+  padding-left: 20px;
+}
+.layout-footer {
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+}
+.metric {
+  background-color: #b3ccff;
+  text-align: center;
+  border: 1px solid white;
+}
+.metric .key{
+  display: block;
+  font-size: 18px;
+  color: #333333;
+  margin-top: 15px;
+}
+.metric .value{
+  display: block;
+  color: #333333;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-bottom: 15px;
+}
+.outline {
+
+}
+.outline .outline-header {
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+}
+.outline .outline-body {
+  padding: 15px 5px 15px 20px;
+  font-size: 14px;
+}
+
+.table-row {
+  font-size: 14px;
+}
+.anchor {
+
+}
+.anchor-link {
+  color: red;
+}
